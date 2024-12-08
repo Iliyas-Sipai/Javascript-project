@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="stopwatch">
+        <h1 id="time">00:00:00</h1>
+        <div class="buttons">
+            <i class="ri-stop-mini-fill" onclick="watchStop()"></i>
+            <i id="icon2" class="ri-play-large-line" onclick="watchStart()"></i>
+            <i class="ri-restart-line" onclick="watchReset ()"></i>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
