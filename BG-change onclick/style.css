@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #719192;
+    height: 100vh;
+}
+button{
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: coral;
+}
+.box{
+    width: 150px;
+    height: 160px;
+    background-color: red;
+    border: 1px solid #282828;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    gap: 10px;
+}
+.box1{
+    background-color: orange;
+}
+.box2{
+    background-color: grey;
+}
+.box3{
+    background-color: yellow;
+}
+.box4{
+    background-color: #f76b8a;
+}
+@media screen and (max-width:1200px) {
+    .container{
+        flex-direction: column;
+    }
+}
