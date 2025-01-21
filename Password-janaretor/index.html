@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Genearetar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <div class="container">
+        <div class="header">
+            <h2>Password Genearetar</h2>
+        </div>
+          <div class="display">
+            <input type="text" id="pass-input" placeholder="Password" disabled>
+             <button id="copy">Copy</button>
+        </div>
+        <div class="setting">
+            <label class="lenght-label">Lenght</label>
+            <input type="number" id="length-number" value="10" min="5" max="10" id="">
+        </div>
+        <div class="setting">
+            <label class="lenght-label">Uppercase</label>
+            <input type="checkbox" id="uppercase" checked>
+        </div>
+        <div class="setting">
+            <label class="lenght-label">Lowercase</label>
+            <input type="checkbox" id="lowercase" checked>
+        </div>
+        <div class="setting">
+            <label class="lenght-label">Number</label>
+            <input type="checkbox" id="number" checked>
+        </div>
+        <div class="setting">
+            <label class="lenght-label">Symbol</label>
+            <input type="checkbox" id="symbol" checked>
+        </div>
+
+        <div class="gn-btn">
+            <button id="generate">Genearetar</button>
+        </div>
+        </div>
+       </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
